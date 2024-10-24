@@ -1,0 +1,68 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: black;
+}
+
+h1,#win-msg{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    color: brown;
+}
+
+.container{
+    height: 80vh;
+    justify-content: center;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+}
+
+.game{
+    height: 60vh;
+    width:60vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.box{
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    color: brown;
+    height: 18vh;
+    width: 18vh;
+    font-size: 70px;
+    text-align: center;
+}
+
+#reset-button,  #new-game{
+    background-color: brown;
+    color: white;
+    padding: 12px 40px 12px 40px;
+    font-size: 17px;
+    border: none;
+    border-radius: 12px;
+}
+
+.msg-container{
+    height: 100vh;
+    justify-content: center;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+}
+
+.hide{
+    display: none;
+}
